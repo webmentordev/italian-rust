@@ -11,7 +11,7 @@
             <div v-else class="flex flex-col p-3 max-w-lg m-auto rounded-lg mt-6 bg-dark relative">
                 <h3 v-if="server.status == 'online'" class="bg-gree-600/20 text-white absolute top-5 left-5 bg-dark py-2 px-4 flex items-center rounded-lg"><span class="p-[6px] -mt-1 mr-2 bg-green-400 h-fit w-fit rounded-full"></span> {{ server.status }}</h3>
                 <h3 v-else class="bg-gree-600/20 text-white absolute top-5 left-5 bg-dark py-2 px-4 flex items-center rounded-lg"><span class="p-[6px] -mt-1 mr-2 bg-red-600 h-fit w-fit rounded-full"></span> {{ server.status }}</h3>
-                <img :src="server.details.rust_headerimage" class="rounded-lg" alt="Exile Rust Header Image">
+                <img :src="server.details.rust_headerimage" class="rounded-lg" alt="Italian Rust Header Image">
                 <div class="p-3">
                     <h2 class="text-white mt-3 text-2xl">{{ server.name }}</h2>
                     <div class="m-auto 510px:text-start 510px:m-0 w-fit flex 510px:flex-col text-white border-l-main 510px:border-l">
